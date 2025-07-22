@@ -47,7 +47,6 @@ To deploy the portfolio website, you can use platforms like:
 [View on GitHub Pages](https://mahfuz-raihan.github.io/)
 
 ## Contact
-:
 - **Email:** mahfuz.raihan.ict@gmail.com
 - **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/mahfuzraihan)
 
