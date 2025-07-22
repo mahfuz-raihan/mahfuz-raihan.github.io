@@ -43,6 +43,8 @@ To deploy the portfolio website, you can use platforms like:
 - **Netlify**
 - **GitHub Pages** (with additional configurations)
 
+## Live Site
+[View on GitHub Pages](https://mahfuz-raihan.github.io/)
 
 ## Contact
 :
