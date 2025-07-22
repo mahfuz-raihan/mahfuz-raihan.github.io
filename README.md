@@ -1,4 +1,4 @@
-# Portfolio Website
+# Personal Portfolio Website
 
 This is a personal portfolio website built using Vite+React, Tailwind CSS, and Framer Motion to showcase my skills, projects, and experience.
 
@@ -43,13 +43,11 @@ To deploy the portfolio website, you can use platforms like:
 - **Netlify**
 - **GitHub Pages** (with additional configurations)
 
-## How to Contribute
-If you’d like to contribute or improve this project, feel free to fork the repository and submit a pull request.
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out via:
-- **Email:** sathish31102004@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/sathishk-dev)
+:
+- **Email:** mahfuz.raihan.ict@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/mahfuz-raihan)
 
 ---
-Made with ❤️ by Sathish Kumar.
+Made with ❤️ by Mahfuz.
