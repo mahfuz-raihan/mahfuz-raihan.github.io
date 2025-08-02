@@ -56,17 +56,44 @@ export default function Contact() {
               </motion.button>
 
               <div className='flex items-center gap-x-2 lg:gap-x-5'>
-                {[BiLogoGmail, IoLogoLinkedin, IoLogoTwitter, BsGithub].map((Icon, index) => (
-                  <motion.a
-                    key={index}
-                    href="#"
-                    className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    <Icon className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
-                  </motion.a>
-                ))}
+                <motion.a
+                  href="mailto:mahfuz.raihan.ict@gmail.com"
+                  className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <BiLogoGmail className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
+                </motion.a>
+                <motion.a
+                  href="https://www.linkedin.com/in/mahfuzraihan/"
+                  className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IoLogoLinkedin className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
+                </motion.a>
+                <motion.a
+                  href="https://x.com/medanspeech"
+                  className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IoLogoTwitter className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
+                </motion.a>
+                <motion.a
+                  href="https://github.com/mahfuz-raihan"
+                  className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsGithub className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
+                </motion.a>
               </div>
             </motion.div>
           </form>

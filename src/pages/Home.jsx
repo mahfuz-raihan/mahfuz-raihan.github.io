@@ -89,10 +89,12 @@ export default function Home() {
               <IoLogoLinkedin className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
             <motion.a
-              href="#"
+              href="https://x.com/medanspeech"
               className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IoLogoTwitter className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
