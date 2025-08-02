@@ -73,12 +73,13 @@ export default function Skills() {
           {skills.map((skill) => (
             <motion.div
               key={skill.id}
-              className="bg-white dark:bg-zinc-900 border-2 border-black dark:border-zinc-700 rounded-full shadow-md hover:shadow-xl hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all cursor-pointer h-32 w-32 flex flex-col items-center justify-center gap-3 transform hover:scale-105"
+              className="bg-white dark:bg-zinc-900 border-2 border-black dark:border-zinc-700 rounded-xl shadow-md hover:shadow-xl hover:bg-gray-100 dark:hover:bg-zinc-800 transition-all cursor-pointer h-32 w-32 flex flex-col items-center justify-center gap-3 transform hover:scale-105"
               initial={{ opacity: 0, y: 5 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut', delay: skill.id * 0.1 }}
               viewport={{ once: true }}
             >
+
               {skill.icon}
               <p className="text-center text-sm lg:text-base font-semibold mt-2 text-black dark:text-white">{skill.name}</p>
             </motion.div>
