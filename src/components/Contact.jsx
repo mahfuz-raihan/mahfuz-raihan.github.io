@@ -28,15 +28,15 @@ export default function Contact() {
         Contact <span className='font-extrabold'>Me</span>
       </motion.h2>
 
-      <div className='flex justify-between items-center mt-8 lg:mt-16 flex-col lg:flex-row'>
+      <div className='flex justify-between items-start gap-8 mt-8 lg:mt-16 flex-col lg:flex-row'>
         <motion.div
           initial={{ x: -50, opacity: 0 }}
           animate={isInView ? { x: 0, opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.8 }}
-          className='lg:w-[40%]'
+          className='w-full lg:w-[40%]'
         >
           <form className='w-full space-y-3 lg:space-y-5'>
-            <input className='border-2 px-5 py-3 border-black rounded placeholder:text-[#71717A] text-sm w-full' type="text" placeholder='Your name' required />
+            <input className='border-2 px-4 py-2 lg:px-5 lg:py-3 border-black rounded placeholder:text-[#71717A] text-sm w-full focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='Your name' required />
             <input className='border-2 px-5 py-3 border-black rounded placeholder:text-[#71717A] text-sm w-full' type="email" placeholder='Email' required />
             <input className='border-2 px-5 py-3 border-black rounded placeholder:text-[#71717A] text-sm w-full' type="text" placeholder='Your website (If exists)' />
             <textarea className='resize-none border-2 px-5 py-3 h-32 border-black placeholder:text-[#71717A]  rounded text-sm w-full' placeholder='How can I help?*'></textarea>

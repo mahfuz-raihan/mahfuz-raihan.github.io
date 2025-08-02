@@ -4,12 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Responsive base styles */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
   min-height: 100vh;
   color: #18181b;
   letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 body.dark, .dark body {
   background: linear-gradient(135deg, #18181b 0%, #312e81 100%);

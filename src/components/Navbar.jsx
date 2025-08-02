@@ -93,18 +93,29 @@ export default function Navbar() {
           </span>
         </motion.a>
 
-        <motion.button
-          className="lg:hidden text-2xl"
-          onClick={() => setIsOpen(!isOpen)}
-          whileHover={{ scale: 1.2 }}
-        >
-          {isOpen ? <HiX /> : <HiOutlineMenu />}
-        </motion.button>
+        <div className="lg:hidden flex items-center gap-x-4">
+          {/* Dark/Light Mode Toggle for mobile */}
+          <button
+            onClick={() => setDarkMode((prev) => !prev)}
+            className="p-2 rounded-full border border-black dark:border-white bg-white dark:bg-black text-black dark:text-white transition-colors"
+            aria-label="Toggle dark mode"
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
 
-        {/* Dark/Light Mode Toggle */}
+          <motion.button
+            className="text-2xl"
+            onClick={() => setIsOpen(!isOpen)}
+            whileHover={{ scale: 1.2 }}
+          >
+            {isOpen ? <HiX /> : <HiOutlineMenu />}
+          </motion.button>
+        </div>
+
+        {/* Dark/Light Mode Toggle for desktop */}
         <button
           onClick={() => setDarkMode((prev) => !prev)}
-          className="ml-4 p-2 rounded-full border border-black dark:border-white bg-white dark:bg-black text-black dark:text-white transition-colors"
+          className="hidden lg:block ml-4 p-2 rounded-full border border-black dark:border-white bg-white dark:bg-black text-black dark:text-white transition-colors"
           aria-label="Toggle dark mode"
         >
           {darkMode ? <FaSun /> : <FaMoon />}

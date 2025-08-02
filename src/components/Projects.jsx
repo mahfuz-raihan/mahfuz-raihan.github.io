@@ -35,16 +35,16 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="bg-black px-5 lg:px-28 py-8 my-8 lg:py-16 lg:my-16" id="projects">
+    <div className="bg-black px-4 sm:px-6 lg:px-28 py-8 my-8 lg:py-16 lg:my-16" id="projects">
       <h2 className="text-2xl lg:text-4xl text-center text-white">
         My <span className="font-extrabold">Projects</span>
       </h2>
 
-      <div className="lg:mt-16 mt-8 lg:space-y-16 space-y-8 lg:pb-6 pb-3">
+      <div className="mt-8 lg:mt-16 space-y-8 lg:space-y-16 pb-3 lg:pb-6">
         {projects.map((project, index) => (
           <motion.div
             key={project.id}
-            className={`flex justify-between items-center flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}
+            className={`flex justify-between items-center gap-6 lg:gap-12 flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 80, damping: 10, delay: index * 0.2 }}
