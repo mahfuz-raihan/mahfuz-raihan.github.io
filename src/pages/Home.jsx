@@ -72,39 +72,39 @@ export default function Home() {
           >
             <motion.a
               href="mailto:mahfuz.raihan.ict@gmail.com"
-              className="bg-white p-2 lg:p-3 rounded border-2 border-black"
-              whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+              className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <BiLogoGmail className="w-4 h-4 lg:w-5 lg:h-5" />
+              <BiLogoGmail className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
             <motion.a
               href="https://www.linkedin.com/in/mahfuzraihan/"
-              className="bg-white p-2 lg:p-3 rounded border-2 border-black"
-              whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+              className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IoLogoLinkedin className="w-4 h-4 lg:w-5 lg:h-5" />
+              <IoLogoLinkedin className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
             <motion.a
               href="#"
-              className="bg-white p-2 lg:p-3 rounded border-2 border-black"
-              whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+              className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <IoLogoTwitter className="w-4 h-4 lg:w-5 lg:h-5" />
+              <IoLogoTwitter className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
             <motion.a
               href="https://github.com/mahfuz-raihan"
-              className="bg-white p-2 lg:p-3 rounded border-2 border-black"
-              whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+              className="bg-white dark:bg-gray-800 p-2 lg:p-3 rounded border-2 border-black dark:border-white"
+              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsGithub className="w-4 h-4 lg:w-5 lg:h-5" />
+              <BsGithub className="w-4 h-4 lg:w-5 lg:h-5 text-black dark:text-white" />
             </motion.a>
           </motion.div>
         </motion.div>
